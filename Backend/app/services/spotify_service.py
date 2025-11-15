@@ -3,8 +3,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import os
 import httpx
 
-#export SPOTIPY_CLIENT_ID='25cc72c68038426f9192994527a53bcf'
-#export SPOTIPY_CLIENT_SECRET='42940f807b904779ad446b079f29e35d'
+
 
 #Servicio de Spotify público
 class SpotifyService:
@@ -12,8 +11,8 @@ class SpotifyService:
 
         self.sp = None
         
-        CLIENT_ID='25cc72c68038426f9192994527a53bcf'.strip()
-        CLIENT_SECRET='42940f807b904779ad446b079f29e35d'.strip()
+        CLIENT_ID='Credencial1'.strip()
+        CLIENT_SECRET='Credencial2'.strip()
         self.URL_DEEZER='https://api.deezer.com'
 
         #CLIENT_ID = os.getenv('SPOTIFY_CLIENT_ID')
